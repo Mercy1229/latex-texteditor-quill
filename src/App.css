@@ -1,0 +1,42 @@
+.ql-editor {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 21cm;
+  min-height: 29.7cm;
+  font-family: Times New Roman, serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  color: #000;
+}
+.ql-editor:focus {
+  border-color: #007bff;
+}
+.ql-editor h1 {
+  font-size: 24pt;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.ql-editor h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  margin: 15px 0 10px 0;
+}
+.custom-controls {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.editor-wrapper {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
